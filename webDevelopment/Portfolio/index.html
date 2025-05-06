@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+    <title>Andre Welman - Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+        
+      <div id="home">
+        <div class="profile_name">
+            Andre Welman
+        <div class="contact_info">
+            andrewelman4@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+            +2712 345 6789
+          <!--+2779 512 8552-->
+
+        </div>
+        </div>
+        <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.pixabay.com/animation/2022/11/10/13/22/13-22-56-246_512.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, my name is Andre <img src="  " width="60px"/>
+          </h1>
+          <p>
+            I desire to become a Dev focusing on front end but still aspire to be able to do back end.
+            I want to create website and applications to automate my life and help others along my journey.
+            I enjoy python and css but also see the benefits of being able to write is JavaScript as python and JS is probably the most used languages.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="https://i.giphy.com/KAq5w47R9rmTuvWOWa.webp"/>
+          <h6>Python</h6>
+          <p></p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3U0ZGM3cGJ6ZjNjdG5iOTBjNWh6czYyMHhvMHpxMjZ4dnF0cXAzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ln7z2eWriiQAllfVcn/giphy.gif"/>
+          <h6>JavaScript</h6>
+          <p></p>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/640px-CSS3_logo.svg.png"/>
+            <h6>CSS</h6>
+            <p></p>
+          </div>
+          
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"/>
+            <h6>HTML</h6>
+            <p></p>
+          </div>
+          </div>  
+
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Quiz Game </h3>
+            <ul>
+              <li>Developed and deployed a game that can take multiple answers and show the correct result to users</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Calculator</h3>
+            <ul>
+              <li>a Basic calculator with arithmetic operations functionalities like addition, subtraction, multiplication, and division</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Financial Planner</h3>
+            <ul>
+              <li>Developed a website to calculate and budget every month's spendings</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Lorem ipsum dolor sit amet. 
+          Qui iste iure in saepe eveniet qui atque esse cum error laborum non totam eligendi id dignissimos doloribus in necessitatibus cupiditate. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Et impedit maxime aut dignissimos nulla aut autem laborum nam voluptatem mollitia aut autem molestias. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Et blanditiis sequi est obcaecati excepturi qui sint voluptatem ut labore repudiandae. 
+          Sed cumque delectus qui aspernatur voluptas id voluptatum quis.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div id="go-home"; class="iconbutton">
+    
+      <a href="#home">
+        <img src="https://cdn.dribbble.com/users/2994381/screenshots/9158658/image.gif" height="200" width="250">
+    
+      </a>
+      
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+
+    
+    <!--
+        <div id="go-home"; class="iconbutton">
+            <a href="#home">
+                <img src="https://toppng.com/uploads/preview/home-icon-silhouette-vector-icon-house-svg-11553430238j2yumqqjz8.png" height="100" width="100">
+            </a>
+        </div>
+    -->
+
+
+
+  </body>
+</html>
